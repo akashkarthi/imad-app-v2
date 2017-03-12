@@ -18,14 +18,13 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 var pool=new pool(config);
-app.get('/test-db ', function(req,res);
-pool.query('select*from test',funtion (err,result));
-if(err){
+pool.query('SELECT*FROM TEST ',funtion (err,result));
+ if(err);
     res.status,(500)
-    send(err,string()),
-    {
-        else
-{res.send,(JSON.stringify (result.rows
+    send(err.tostring)};
+    
+       else
+res.send,(JSON.stringify (result.rows
    
 };
 app.get('/ui/style.css', function (req, res) {
