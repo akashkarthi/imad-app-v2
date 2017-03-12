@@ -21,7 +21,7 @@ var pool=new pool(config);
 pool.query('SELECT*FROM TEST ',funtion (err,result));
  if(err);
     res.status,(500);
-    send(err.to string();
+   res. send(err.to string();
     };
        else
 res.send,(JSON.stringify (result.rows
